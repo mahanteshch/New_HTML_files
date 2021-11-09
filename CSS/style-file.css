@@ -1,0 +1,76 @@
+body{
+	background-color: #f4f4f4;
+	color: black;
+	font-family: serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	margin: none;
+}
+
+.cointainer{
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+}
+
+#header{
+	background-color: lightcoral;
+	color: #fff;
+}
+
+#navigation{
+	background-color: #333;
+	color: #fff;
+}
+
+#navigation ul{
+	list-style: none;
+	padding: 0;
+}
+
+#navigation li{
+	display: inline;
+}
+
+#navigation a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url('../image/bgi.jpg');
+	height: 150px;
+	text-align: center;
+	background-position: center left;
+}
+	
+#tables table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tables th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+#table tr:hover {background-color: black;}
+
+#main{
+	box-sizing: border-box;
+	width: 70%;
+	float: left;
+	padding: 15px;
+}
+
+#sidebar{
+	background-color: #333;
+	width: 30%;
+	color: white;
+	box-sizing: border-box;
+	float: right;
+	padding: 10px;
+}
